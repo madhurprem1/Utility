@@ -12,7 +12,7 @@ def main():
 	i = datetime.datetime.now()
 
 	delta_time = (i - epoch).total_seconds()
-	print(delta_time)
+	print(int(delta_time), delta_time)
 
 if __name__ == "__main__":
 	main()	
